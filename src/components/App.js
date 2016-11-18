@@ -1,9 +1,10 @@
 // This component handles the App template used on every page
 
-import React, {Proptypes} from 'react';
+import React, {PropTypes} from 'react';
 
 class App extends React.Component {
   render() {
+   
     return (
       <div className="container-fluid">
       <p>header here...</p>
@@ -14,5 +15,7 @@ class App extends React.Component {
 }
 
 App.propTypes = {
-  children: Proptypes.object.isRequired
+  children: PropTypes.object.isRequired
 };
+
+export default App;
