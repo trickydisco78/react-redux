@@ -1,23 +1,13 @@
-<<<<<<< HEAD
 // Root Reducer
+// 1 big reducer to handle all reducers
 import { combineReducers } from "redux";
 import courses from "./courseReducer";
 
-const rootReducer = combineReducers({
-  // Shorthand  property name (ES6)
-  // courses: courses
-=======
-import {combineReducers} from 'redux';
-import courses from './courseReducer';
+// Shorthand  property name (ES6)
+// courses: courses
 
 const rootReducer = combineReducers({
->>>>>>> 7a51ff05f6c43f222b4416aa9105ad3ad3604841
   courses
 });
 
 export default rootReducer;
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 7a51ff05f6c43f222b4416aa9105ad3ad3604841

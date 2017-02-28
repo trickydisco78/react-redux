@@ -3,19 +3,14 @@
   "version": "1.0.0",
   "description": "Starter kit for React and Redux Pluralsight course by Cory House",
   "scripts": {
-    "lint": "node_modules/.bin/esw webpack.config.* src tools --color",
+    "lint": "node_modules/.bin/esw webpack.config.* src tools",
     "prestart": "babel-node tools/startMessage.js",
-<<<<<<< HEAD
+    "lint:watch": "npm run lint -- --watch",
     "start": "babel-node tools/srcServer.js"
-=======
-    "start": "babel-node tools/srcServer.js",
-    "lint": "node_modules/.bin/eslint webpack.config.* src tools"
->>>>>>> 7a51ff05f6c43f222b4416aa9105ad3ad3604841
   },
   "author": "Cory House",
   "license": "MIT",
   "dependencies": {
-    "babel-plugin-transform-class-properties": "^6.19.0",
     "babel-polyfill": "6.8.0",
     "bootstrap": "3.3.6",
     "eslint-config-defaults": "^9.0.0",
