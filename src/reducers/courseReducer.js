@@ -10,12 +10,17 @@
 // Create reducer for every single piece of state (in this case only courses)
 
 // Create empty state as default paramet as when function first runs state doesn't contain anything
+
+// IMport action types - instead of hard coding action types create seperate file
+import * as types from '../actions/actionTypes'
 export default function courseReducer(state = [], action) {
   console.log('State and action:');
   console.log('State:', state , 'Action:' , action);
   switch (action.type) {
-    case "CREATE_COURSE":
-    
+      //Before use of action types
+      //Hard coded actions
+      //case "CREATE_COURSE":
+      case types.CREATE_COURSE:
       return [...state, Object.assign({}, action.course)];
 
     default:
