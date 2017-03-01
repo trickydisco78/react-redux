@@ -1,7 +1,6 @@
-//
-
-import * as types from './actionTypes';
 //Instead of hard coded strings we can use a seperate actiontypes file
+import * as types from './actionTypes';
+
 
 export function createCourse(course) {
   //Was hard coded string  - type: CREATE_COURSE
