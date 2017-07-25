@@ -1,0 +1,9 @@
+# OUTPUT
+build
+
+# NODE
+node_modules
+
+# OSX
+._*
+.DS_Store
